@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15px;
+    width: fit-content;
+
+    padding: 20px 0;
+
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+
+    color: white;
+    font-weight: 700;
+
+    div[class*='rce'] {
+        svg {
+            display: none;
+        }
+        min-width: initial;
+    }
+
+    div[class*='rce-mbox'] {
+        color: #fff;
+        background: transparent;
+        box-shadow: initial;
+    }
+
+    div[class*='rce-mbox-title'] {
+        color: var(--custom-blue);
+        font-size: 15px;
+    }
+    
+    .interactions {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+
+        width: 100%;
+
+        span {
+            color: var(--custom-blue);
+        }
+    }
+
+    .message {
+        background-color: var(--light-color);
+    }
+
+    .icon {
+        cursor: pointer;
+        color: var(--custom-blue);
+    }
+    
+
+
+}
+

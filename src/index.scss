@@ -1,0 +1,9 @@
+$custom-blue:rgb(0, 166, 207);
+$custom-orange: rgb(207, 159, 0);;
+
+
+:root {
+  --custom-blue: #{$custom-blue};
+  --custom-orange: #{$custom-orange};
+
+}
